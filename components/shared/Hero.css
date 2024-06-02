@@ -1,0 +1,115 @@
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 100vh;
+    max-width: 90%;
+    margin: auto;
+}
+
+.hero-container-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 100vh;
+}
+
+.hero-container-advantages4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 100vh;
+}
+
+.banner-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.banner-main-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+}
+
+.hero-container-testimonial {
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.banner-left-advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    padding-left: 160px;
+}
+
+.hero-banner-image {;
+    width:  55rem;
+}
+
+.hero-banner-image-features {
+    width: 55rem;
+}
+
+.hero-banner-image-advantages {
+    width: 45rem;
+    margin-left: 100px;
+}
+
+.hero-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    padding-left: 0px;
+}
+
+.hero2 {
+    width: 33rem;
+    height: 16rem;
+}
+
+.main-text {
+    line-height: 1em;
+}
+
+.feature-desc {
+    font-weight: 400;
+    color: #6c757d;
+}
+
+.lineer {
+    line-height: 1.15;
+}
+
+.lineeerr {
+    line-height: 1.5;
+}
+
+.blowout {
+    position: absolute;
+    top: 4%;
+    left: 16%;
+    z-index: 1;
+}
