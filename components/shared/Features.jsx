@@ -5,7 +5,7 @@ import "./Hero.css"
 const Features = () => {
     return (
         <div id="features" className="hero-container-features mt-12">
-            <div className="banner-main-features">
+            <div className="banner-main-features md:flex md:flex-row flex flex-col min-h-[100vh]">
                 <div className="hero-middle">
                     <Image
                         src={hero3} alt="image" className="hero-banner-image-features"

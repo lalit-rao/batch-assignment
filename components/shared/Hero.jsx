@@ -1,4 +1,4 @@
-'use client';  // Ensure this component is treated as a client component
+'use client';
 
 import Image from "next/image";
 import {arrow, blowout, hero, hero2, video} from "../../public/assets/images";
@@ -15,12 +15,12 @@ const Hero = () => {
 
     return (
         <div className="hero-container">
-            <div className="banner-main">
+            <div className="banner-main md:flex md:flex-row flex flex-col min-h-[100vh]">
                 <div className="banner-left md:pl-20 md:max-w-[50%] md:mx-auto max-w-[90%] mx-auto max-h-[45%] my-auto justify-center">
-                    <p className="md:text-[64px] md:font-bold capitalize leading-tight main-text z-20">
+                    <p className="md:text-[64px] font-bold capitalize leading-tight main-text z-20 text-3xl">
                         make the best financial decisions
                     </p>
-                    <h3 className="md:text-[18px] capitalize md:font-thin md:mt-6 text-2xl">
+                    <h3 className="md:text-[18px] capitalize md:font-thin md:mt-6 text-lg">
                         Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
                     </h3>
                     <div className="blowout">

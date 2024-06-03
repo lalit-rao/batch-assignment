@@ -19,13 +19,13 @@ import "./Hero.css"
 const Testimonial = () => {
     return (
         <>
-            <div className="hero-container-testimonial">
+            <div className="hero-container-testimonial md:flex md:flex-row flex flex-col min-h-[140vh]">
             <div className="text-center max-w-[30%] mx-auto">
                 <p className="font-medium text-[18px]">TESTIMONIAL</p>
-                <p className="font-bold text-[48px]">What our users say about us?</p>
+                <p className="font-bold text-[28px] md:text-[48px]">What our users say about us?</p>
             </div>
             <div>
-                <div className="banner-main-features">
+                <div className="banner-main-features md:flex md:flex-row flex flex-col min-h-[140vh]">
                     <div className="hero-middle">
                         <Image
                             src={testimonialImage} alt="image" className="hero-banner-image-advantages"

@@ -18,10 +18,10 @@ export default function Home() {
         <section>
             <Features />
         </section>
-        <section>
+       <section>
             <Advantages />
         </section>
-        <section>
+         <section>
             <Advantages2 />
         </section>
         <section>
@@ -30,7 +30,7 @@ export default function Home() {
         <section>
             <Faqs />
         </section>
-        <section>
+       *<section>
             <Fbanner />
         </section>
         <section>

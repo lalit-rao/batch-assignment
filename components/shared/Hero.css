@@ -4,7 +4,7 @@
     align-items: center;
     background-color: white;
     border-radius: 20px;
-    height: 100vh;
+    min-height: 100vh;
     max-width: 90%;
     margin: auto;
 }
@@ -15,7 +15,7 @@
     align-items: center;
     background-color: white;
     border-radius: 20px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .hero-container-advantages4 {
@@ -99,6 +99,10 @@
     color: #6c757d;
 }
 
+.banny {
+    min-height: 150vh;
+}
+
 .lineer {
     line-height: 1.15;
 }
@@ -112,4 +116,28 @@
     top: 4%;
     left: 16%;
     z-index: 1;
+}
+
+@media screen and (max-width:768px) {
+    .blowout {
+    position: absolute;
+    top: 2%;
+    left: 16%;
+    z-index: 1;
+}
+    .banner-left-advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+    .banner-left-advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    .banny {
+    min-height: 150vh;
+        margin-top: 300px;
+}
 }
